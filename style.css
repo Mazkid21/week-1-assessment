@@ -1,0 +1,27 @@
+#blueBar{
+	background: blue;
+	margin: 0 ;	
+}
+
+body {
+	background: linear-gradient(bottom, #FFC0CB 50%, #00ffff 50%);
+}
+
+#top,
+#bottom { 
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 50%;
+
+}
+
+#top {
+	top:0;
+	background-color: blue;
+}
+
+#bottom {
+	bottom: 0;
+	background-color: white;
+}
