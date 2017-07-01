@@ -44,3 +44,9 @@ body {
 	background: blue;
 	margin: 0 ;	
 }
+
+#whiteSpace {
+	position: absolute;
+    left: 550px;
+    margin: 150px 500px 0px 0px;
+}
