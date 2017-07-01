@@ -4,7 +4,7 @@
 }
 
 body {
-	background: linear-gradient(bottom, #FFC0CB 50%, #00ffff 50%);
+	
 }
 
 #top,
@@ -17,11 +17,19 @@ body {
 }
 
 #top {
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 40%;
 	top:0;
-	background-color: blue;
+	background-color: #5DBCD2;
 }
 
 #bottom {
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 60%;
 	bottom: 0;
 	background-color: white;
 }
