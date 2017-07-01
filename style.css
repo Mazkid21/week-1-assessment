@@ -1,10 +1,14 @@
-#blueBar{
-	background: blue;
-	margin: 0 ;	
-}
+
 
 body {
-	
+	color: red;
+}
+
+#phone {
+	position: fixed;
+	left: 100px;
+	margin: 50px 0px;
+	height: 600px;
 }
 
 #top,
@@ -22,7 +26,7 @@ body {
 	right: 0;
 	height: 40%;
 	top:0;
-	background-color: #5DBCD2;
+	background-color: #517798;
 }
 
 #bottom {
@@ -32,4 +36,11 @@ body {
 	height: 60%;
 	bottom: 0;
 	background-color: white;
+}
+
+
+
+#blueBar{
+	background: blue;
+	margin: 0 ;	
 }
