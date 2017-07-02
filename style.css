@@ -2,11 +2,37 @@
 
 body {
 	margin: 0px;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
 p {
+	font-family: 'Alegreya Sans', sans-serif;
 	float: left;
-    margin-right: 200px;
+    margin-top: 20px;
+    margin-right: 180px;
+    margin-left: 20px;
+}
+
+h2 {
+	color: #517798;
+	 margin-top: 20px;
+    padding-left: 20px;
+}
+
+button {
+	position: fixed;
+	background-color: red;
+	position: relative;
+	left: 550px;
+	bottom: 20px;
+	top: 40px;
+
+}
+
+footer {
+	display: inline-block;
+    position: fixed;
+    bottom: 0px;
 }
 
 #phone {
@@ -43,6 +69,12 @@ p {
 	background-color: white;
 }
 
+#instaLogo {
+	position: relative;
+    top: 80px;
+    left: 550px;
+    bottom: 20px;
+}
 
 
 #whiteSpace {
@@ -50,7 +82,13 @@ p {
     position: fixed;
     left: 550px;
     right: -300px;
-    margin: 150px 500px 0px 0px;
+    margin: 190px 500px 0px 0px;
     display: inline-block;
     padding: 20px 20px;
+}
+
+#house {
+	top: 80px;
+	left: 550px;
+	bottom: 20px;
 }
