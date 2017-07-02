@@ -2,33 +2,39 @@
 
 body {
 	margin: 0px;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Hind Vadodara', sans-serif;
 	position: absolute;
 }
 
 p {
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Hind Vadodara', sans-serif;
 	float: left;
     margin-right: 20px;
     padding-right: 20px;
     margin-top: 10px;
     font-size: larger;
+
 }
 
 h2 {
-	color: #517798;
+	color: #03274D;;
 	 margin-top: 20px;
     padding-left: 20px;
     font-size: xx-large;
 }
 
 button {
+	
+	background-color: #517798;
 	position: fixed;
-	background-color: red;
-	position: relative;
-	left: 550px;
-	bottom: 20px;
-	top: 40px;
+	left: 900px;
+    bottom: 400px;
+    top: 100px;
+    border-radius: 3px;
+    height: 39px;
+    width: 96px;
+    box-shadow: 0px 0px 11px #517798;
+    color: white;
 
 }
 
@@ -36,10 +42,46 @@ footer {
 	display: inline-block;
     position: fixed;
     bottom: 0px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Hind Vadodara', sans-serif;
     right: auto;
     left: 400px;
+    color: #517798;
+    word-spacing: 20px;
+    display: inline-block;
+    position: fixed;
+    bottom
+    top: 800px;
+    position: fixed;
+
 }
+footer p {
+	position: fixed;
+    top: 690px;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: small;
+    font-weight: 700;
+    left: 300px;
+}
+
+#copyright {
+
+	word-spacing: 0px;
+    position: fixed;
+    top: 700px;
+    left: 825px;
+    font-size: small;
+    color: grey;
+}
+
+button p {
+	position: fixed;
+    top: 100px;
+    margin-right: 0px;
+    margin-top: 10px;
+    left: 950px;
+}
+
+
 
 #phone {
 	position: fixed;
@@ -62,8 +104,8 @@ footer {
 	left: 0;
 	top: 0px;
     right: 100px;
-    width: 1400px;
-    height: 350px;
+    width: 1500px;
+    height: 250px;
 	background-color: #517798;
 }
 
@@ -73,27 +115,38 @@ footer {
 }
 
 #instaLogo {
-	position: relative;
+	position: fixed;
     top: 80px;
     left: 550px;
     bottom: 20px;
+    height: 85px;
 }
 
 
 #whiteSpace {
 	background: url(images/frame.png) no-repeat;
-    position: absolute;
+	background-size: 550px;
+    position: fixed;
     width: 500px;
     left: 550px;
     right: -300px;
-    margin: 190px 500px 0px 0px;
+    margin: 150px 500px 0px 0px;
     display: inline-block;
     padding: 20px 20px;
     top:40px;
 }
 
 #house {
-	top: 80px;
-	left: 550px;
-	bottom: 20px;
+	position: absolute;
+    top: 7px;
+    right: 55px;
+}
+
+#google {
+	margin-left: 30px;
+}
+
+
+
+
 }
