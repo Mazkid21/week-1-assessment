@@ -1,7 +1,12 @@
 
 
 body {
-	color: red;
+	margin: 0px;
+}
+
+p {
+	float: left;
+    margin-right: 200px;
 }
 
 #phone {
@@ -40,13 +45,12 @@ body {
 
 
 
-#blueBar{
-	background: blue;
-	margin: 0 ;	
-}
-
 #whiteSpace {
-	position: absolute;
+	background: url(images/frame.png) no-repeat;
+    position: fixed;
     left: 550px;
+    right: -300px;
     margin: 150px 500px 0px 0px;
+    display: inline-block;
+    padding: 20px 20px;
 }
