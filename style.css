@@ -1,12 +1,14 @@
 
 
 body {
+	
 	margin: 0px;
 	font-family: 'Hind Vadodara', sans-serif;
 	position: absolute;
 }
 
 p {
+	
 	font-family: 'Hind Vadodara', sans-serif;
 	float: left;
     margin-right: 20px;
@@ -15,30 +17,33 @@ p {
     font-size: larger;
 
 }
-
+/*Capture and share headline */
 h2 {
-	color: #03274D;;
-	 margin-top: 20px;
+	
+	color: #385E7F;
     padding-left: 20px;
-    font-size: xx-large;
-}
+    margin-bottom: 10px;
+    margin-top: 0px;
 
+}
+/*log in button*/
 button {
 	
 	background-color: #517798;
-	position: fixed;
-	left: 900px;
-    bottom: 400px;
+    position: fixed;
     top: 100px;
     border-radius: 3px;
     height: 39px;
     width: 96px;
-    box-shadow: 0px 0px 11px #517798;
     color: white;
-
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    left: 980px;
+    
 }
 
+/*footer links layout*/
 footer {
+	
 	display: inline-block;
     position: fixed;
     bottom: 0px;
@@ -54,15 +59,26 @@ footer {
     position: fixed;
 
 }
+/*footer links text */
 footer p {
+	
 	position: fixed;
     top: 690px;
-    font-family: 'Hind Vadodara', sans-serif;
     font-size: small;
     font-weight: 700;
     left: 300px;
+    width: 510px;
 }
+/*log in button text*/
+button p {
+	
+	position: fixed;
+    top: 100px;
+    left: 1027px;
+    width: 40px;
 
+}
+/*footer copyright text*/
 #copyright {
 
 	word-spacing: 0px;
@@ -71,82 +87,80 @@ footer p {
     left: 825px;
     font-size: small;
     color: grey;
+    text-decoration: underline;
+    width: 110px;
 }
 
-button p {
-	position: fixed;
-    top: 100px;
-    margin-right: 0px;
-    margin-top: 10px;
-    left: 950px;
+/*mission statement*/
+ #statment {
+    
+    padding-left: 20px;
+    margin-top: 0px;
+    font-size: medium;
+    margin-bottom: 60px;
 }
 
-
-
+/*iphone image*/
 #phone {
+	
 	position: fixed;
 	left: 100px;
 	margin: 50px 0px;
 	height: 600px;
 }
 
+/*doucument background */
 #top,
 #bottom { 
+	
 	position: fixed;
 	left: 0;
 	right: 0;
-	height: 50%;
-
 }
-
+/*blue background bar*/
 #top {
-	position: fixed;
-	left: 0;
-	top: 0px;
-    right: 100px;
-    width: 1500px;
-    height: 250px;
+   
+    height: 265px;
 	background-color: #517798;
 }
-
+/*white background */
 #bottom {
 	position: fixed;
-	
 }
-
+/*logo image */
 #instaLogo {
+	
 	position: fixed;
     top: 80px;
     left: 550px;
-    bottom: 20px;
     height: 85px;
 }
 
-
+/*mission statement background*/
 #whiteSpace {
+	
 	background: url(images/frame.png) no-repeat;
 	background-size: 550px;
     position: fixed;
     width: 500px;
     left: 550px;
-    right: -300px;
     margin: 150px 500px 0px 0px;
-    display: inline-block;
     padding: 20px 20px;
     top:40px;
-}
+    font-family: 'Hind Vadodara', sans-serif;
 
+}
+/*log in button house image*/
 #house {
 	position: absolute;
     top: 7px;
     right: 55px;
 }
-
+/*google play image*/
 #google {
 	margin-left: 30px;
 }
 
 
 
-
-}
+    
